@@ -26,12 +26,12 @@ body{
 /*. Extra Small Devices PHONES, 600PX & DOWN */
 @media only screen and (max-width:600px){
     body{
-        background-color: blue;
+        background-color: black;
     }
     
     .Logo{
         position: relative;
-        width: 120%;
+        width: 105%;
         height: auto;
     }
 
