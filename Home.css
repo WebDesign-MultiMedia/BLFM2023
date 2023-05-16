@@ -26,7 +26,7 @@ body{
 /*. Extra Small Devices PHONES, 600PX & DOWN */
 @media only screen and (max-width:600px){
     body{
-        background-color: purple;
+        background-color: pink;
     }
     
     .Logo{
@@ -41,7 +41,7 @@ body{
         font-size: 2em; 
         position: relative;
         flex-direction: column;
-        line-height: 2.5;
+        line-height: 3;
     }
 
 
