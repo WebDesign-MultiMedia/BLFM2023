@@ -26,7 +26,7 @@ body{
 /*. Extra Small Devices PHONES, 600PX & DOWN */
 @media only screen and (max-width:600px){
     body{
-        background-color: rgb(17, 17, 16);
+        background-color: purple;
     }
     
     .Logo{
