@@ -31,7 +31,7 @@ body{
     
     .Logo{
         position: relative;
-        width: 105%;
+        width: 100%;
         height: auto;
     }
 
@@ -41,7 +41,7 @@ body{
         font-size: 2em; 
         position: relative;
         flex-direction: column;
-        line-height: 2.5;
+        line-height: 2.2;
     }
 
 
