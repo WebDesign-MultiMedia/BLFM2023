@@ -71,13 +71,13 @@ body{
 /* Small Devices PORTRAIT, TABLETS, & LARGE PNES 600px nd uo */
 @media only screen and (min-width: 600px){
     body{
-        background-color: yellow;
+        background-color: #5b610a;
     }
     
     .Logo{
 
         position: relative;
-        left: 0;
+        left: 2em;
         right: 0;
         top: 0;
         width: 60%;
@@ -87,15 +87,16 @@ body{
         float: right;
         font-size: 5em;
         position: relative;
-        right: 3em;
+        right: 2em;
         top: 0.4em;
         
 }
 
 
 .fa-brands ,.fa-solid{
-    color: rgb(0, 0, 0);
-    text-shadow: -2px 3px 4px rgb(255, 255, 255);
+    font-size: 1em;
+    color: white;
+    text-shadow: -3px 3px 4px rgb(0, 0, 0);
 
 }
 .fa-brands:hover, .fa-solid:hover{
