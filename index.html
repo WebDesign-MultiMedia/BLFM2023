@@ -44,9 +44,50 @@
             <div class="icons-2">
                 <a href="https://wa.me/13476862462"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
-            
-        </div>
+         </div>
         
-        
+         <div class="image-slideshow">
+            <div class="image fade">
+                <img src="images/Cater-trays.jpg" alt="">
+            </div>
+            <div class="image fade">
+                <img src="images/tacos_tray.png" alt="">
+            </div>
+            <div class="image fade">
+                <img src="images/Cater-trays2.png" alt="">
+            </div>
+            <div class="image fade">
+                <img src="images/Agua-fresca.png" alt="">
+            </div>
+            <div class="image fade">
+                <img src="images/Sangre.JPG" alt="">
+            </div>
+           <!-- <div class="image fade">
+                <img src="images/" alt="">
+            </div>
+            <div class="image fade">
+                <img src="images/" alt="">
+            </div>
+            <div class="image fade">
+                <img src="images/" alt="">
+            </div>-->
+         </div>
+        <script>
+            let index = 0;
+            displayImages();
+            function displayImages(){
+                let i;
+                const images = document.getElementsByClassName("image");
+                for (i = 0; i < images.length; i++){
+                    images[i].style.display = "none";
+                }
+                index++;
+                if (index > images.length){
+                    index = 1;
+                }
+                images[index-1].style.display = "block";
+                setTimeout(displayImages, 2000);
+            }
+        </script>
     </body>
 </html>
