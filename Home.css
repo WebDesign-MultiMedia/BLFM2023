@@ -88,6 +88,15 @@ body{
         to {opacity: 1;}
         
     }
+    .edit-pic{
+        position: relative;
+        bottom: 70px;
+    }
+    .edit-pic2{
+        position: relative;
+        top: 60px;
+
+    }
 
 
 }
