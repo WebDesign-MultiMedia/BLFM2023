@@ -90,12 +90,11 @@ body{
     }
     .edit-pic{
         position: relative;
-        bottom: 70px;
+        bottom: 20px;
     }
     .edit-pic2{
         position: relative;
-        top: 60px;
-
+        bottom: 100px;
     }
 
 
