@@ -26,7 +26,7 @@ body{
 /*. Extra Small Devices PHONES, 600PX & DOWN */
 @media only screen and (max-width:600px){
     body{
-        background-color: #5b610a;
+        background-color: #0b7014;
     }
     
     .Logo{
@@ -88,14 +88,9 @@ body{
         to {opacity: 1;}
         
     }
-    .edit-pic{
-        position: relative;
-        bottom: 20px;
-    }
-    .edit-pic2{
-        position: relative;
-        bottom: 20px;
-    }
+
+
+
 
 
 }
