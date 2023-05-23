@@ -88,8 +88,17 @@ body{
         to {opacity: 1;}
         
     }
+    .back{
+        display: none;
+    }
+    .video-background{
+        display: none;
+    }
 
-
+/* VIDEO */
+.background-video{
+    display: none;
+}
 
 
 
@@ -99,6 +108,13 @@ body{
 @media only screen and (min-width: 600px){
     body{
         background-color: #5b610a;
+    }
+       /* VIDEO */
+       .video-background{
+        display: none;
+    }
+    .back{
+        display: none;
     }
     
     .Logo{
@@ -164,7 +180,9 @@ img{
     top: 200px;
 }
 
-
+.back-img { 
+    display: none;
+}
 
     
 }
@@ -174,6 +192,13 @@ img{
     body {
         background-color: rgb(155, 16, 16);
     }
+    /* VIDEO */
+    .background-video{
+        display: none;
+    }
+
+
+    /* IMAGES */
     .image-slideshow{
         position: fixed;
         top: 1px;
@@ -210,6 +235,9 @@ img{
 
     }
 
+
+    /* ICONS */
+
     .fa-brands ,.fa-solid{
         font-size: 0.9em;
         color: rgb(238, 238, 238);
@@ -242,6 +270,30 @@ img{
         background-size: 600% 600%;
 
     }
+       /* VIDEO */
+    .video-background{
+        display:block;
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+    }
+       .img{
+        display: contents;
+        z-index: -1;
+       }
+       .background-image{
+        position: fixed;
+        left: 200px;
+        height: auto;
+        width: 50%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+       }
         .Logo{
             position: relative;
             left: -50px;            
@@ -252,12 +304,12 @@ img{
         width: 40%;
         flex-direction: row;
         position: relative;
-        right: 50px;
+        right: 65px;
         top: 200px;
     }
     .fa-brands ,.fa-solid{
         font-size: 0.9em;
-        color: rgb(255, 1, 1);
+        color: rgb(255, 255, 255);
         text-shadow: -9px 3px 3px rgb(0, 0, 0);
     
     }
@@ -274,6 +326,11 @@ img{
     .fa-tiktok:hover{
         color: green;
         text-shadow: -3px 3px 4px rgb(255, 255, 255);
+    }
+
+    /* IMAGES */
+    .image-slideshow{
+        display: none;
     }
     .cater-tray01{
         position: relative;
