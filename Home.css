@@ -121,18 +121,18 @@ body{
 
 
 .fa-brands ,.fa-solid{
-    font-size: 1em;
-    color: white;
-    text-shadow: -3px 3px 4px rgb(0, 0, 0);
+    font-size: 0.9em;
+    color: rgb(230, 9, 9);
+    text-shadow: -1px 3px 4px rgb(255, 255, 255);
 
 }
 .fa-brands:hover, .fa-solid:hover{
-    color: green;
+    color: rgb(7, 112, 7);
     text-shadow: -3px 3px 4px rgb(255, 255, 255);
 }
 
 .fa-whatsapp:hover, .fa-facebook-f:hover{
-    color: red;
+    color: rgb(7, 112, 7);
     text-shadow: -3px 3px 4px rgb(255, 255, 255);
 
 }
@@ -140,22 +140,112 @@ body{
     color: rgb(253, 253, 253);
     text-shadow: -3px 3px 4px rgb(6, 187, 0);
 }
+
+.image-slideshow{
+    position: fixed;
+    bottom: 1px;
+    z-index: -1;
+    right: 2px;
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.cater-event04{
+    position: relative;
+    top: 300px;
+}
+
+.edit-pic{
+    position: relative;
+    top: 200px;
+}
+
+
+
     
 }
 
 /* Medium Devices LANDSCAPE TABLETS 768px && and up*/
 @media only screen and (min-width: 768px){
     body {
-        background-color: green;
+        background-color: rgb(155, 16, 16);
     }
+    .image-slideshow{
+        position: fixed;
+        top: 1px;
+        z-index: -1;
+        left: 450px;
+        
+
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        
+    }
+
+    .cater-tray01{
+        position: relative;
+        bottom: 320px;
+
+    }
+
+    .cater-event04{
+        position: relative;
+        top: -100px;
+    }
+    .edit-pic{
+        position: relative;
+        top: -100px;
+    }
+
+    .img_Edit-2{
+        position: relative;
+        bottom: 230px;
+        display: none;
+
+    }
+
+    .fa-brands ,.fa-solid{
+        font-size: 0.9em;
+        color: rgb(238, 238, 238);
+        text-shadow: -105px 5px 2px rgb(12, 2, 2);
+    
+    }
+    .fa-brands:hover, .fa-solid:hover{
+        color: rgb(253, 253, 253);
+        text-shadow: -3px 3px 4px rgb(6, 187, 0);
+       
+    }
+    
+    .fa-whatsapp:hover, .fa-facebook-f:hover{
+        color: rgb(253, 253, 253);
+        text-shadow: -3px 3px 4px rgb(6, 187, 0);
+    
+    }
+    .fa-tiktok:hover{
+        color: rgb(253, 253, 253);
+        text-shadow: -3px 3px 4px rgb(6, 187, 0);
+    }
+
 }
 
 /* Large Devices LAPTOP & DESKTOPS, 1200px and up*/
 @media only screen and (min-width: 992px){
-    body{
-        background-color: red;
-    }
+ 
+    body {
+        background: linear-gradient(181deg, #2d9715, #e1eadf, #e31818);
+        background-size: 600% 600%;
 
+    }
+        .Logo{
+            position: relative;
+            left: -50px;            
+        }
     .Social-Medias{
         display: flex;
         justify-content: space-between;
@@ -166,9 +256,9 @@ body{
         top: 200px;
     }
     .fa-brands ,.fa-solid{
-        font-size: 1em;
-        color: white;
-        text-shadow: -3px 3px 4px rgb(0, 0, 0);
+        font-size: 0.9em;
+        color: rgb(255, 1, 1);
+        text-shadow: -9px 3px 3px rgb(0, 0, 0);
     
     }
     .fa-brands:hover, .fa-solid:hover{
@@ -185,11 +275,15 @@ body{
         color: green;
         text-shadow: -3px 3px 4px rgb(255, 255, 255);
     }
+    .cater-tray01{
+        position: relative;
+        bottom: 400px;
+    }
 }
 
 /* Extra Large Devices LARGE LAPTOPS AND DESKTOPS 1200px nd up*/
 @media only screen and (min-width: 1200px){
     body{
-        background-color: pink;
+        display: none;
     }
 }
